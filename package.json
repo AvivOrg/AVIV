@@ -1,1 +1,21 @@
-openai
+{
+  "name": "legit-vibeguard",
+  "publisher": "LegitSecurity",
+  "displayName": "Legit VibeGuard",
+  "description": "Legit VibeGuard is the industry's leading AI-native solution purpose-built to deliver secure AI code from the start",
+  "version": "1.0.0",
+  "icon": "static/icons/legit_icon.png",
+  "scripts": {
+    "vscode:uninstall": "node ./out/uninstall-script.js",
+  },
+  "dependencies": {
+    "@legitsecurity/ai-guard-service": "1.0.182-g764341247a",
+    "axios": "1.14.1",
+    "mac-ca": "^3.1.3",
+    "uuid": "^13.0.0",
+    "win-ca": "^3.5.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+  }
+}
